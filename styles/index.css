@@ -1,1 +1,60 @@
-/*# sourceMappingURL=index.css.map */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: url(../assets/images/bg.jpg) fixed center/cover;
+  text-align: center;
+  font-family: merriweather, serif;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+body:before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: black;
+  -webkit-animation: animBefore 1.5s ease forwards;
+          animation: animBefore 1.5s ease forwards;
+  -webkit-animation-delay: 0.15s;
+          animation-delay: 0.15s;
+}
+@-webkit-keyframes animBefore {
+  to {
+    opacity: 0;
+  }
+}
+@keyframes animBefore {
+  to {
+    opacity: 0;
+  }
+}
+
+a, a:visited {
+  color: white;
+}
+
+.btn {
+  background: none;
+  border: 2px solid rgb(84, 81, 81);
+  height: 45px;
+  width: 170px;
+  font-size: 0.75rem;
+  cursor: pointer;
+  font-family: inter, sans-serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.btn:hover {
+  transform: scale(1.05);
+}/*# sourceMappingURL=index.css.map */
