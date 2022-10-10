@@ -221,4 +221,29 @@ main .section1 p {
 }
 main .section1 .btn {
   margin: 50px 0 90px;
+}
+main .section2 {
+  display: flex;
+  border-top: 1px solid rgb(203, 198, 198);
+}
+main .section2 h3 {
+  font-family: inter, sans-serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin: 30px;
+  line-height: 35px;
+}
+main .section2 p {
+  margin: 30px 0;
+  line-height: 35px;
+  font-style: italic;
+  font-size: 0.8rem;
+  text-align: left;
+}
+main .section2 .left-part {
+  padding: 5%;
+}
+main .section2 .right-part {
+  padding: 5%;
+  border-left: 1px solid rgb(203, 198, 198);
 }/*# sourceMappingURL=index.css.map */

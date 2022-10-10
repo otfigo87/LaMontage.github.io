@@ -53,6 +53,27 @@ main {
     }
     
     .section2 {
+        display: flex;
+        border-top: 1px solid rgb(203, 198, 198); ;
         
+        h3 {
+            @include title;
+            margin: 30px;
+            line-height: 35px;
+        }
+        p {
+            margin: 30px 0;
+            line-height: 35px;
+            font-style: italic;
+            font-size: 0.8rem;
+            text-align: left;
+        }
+        .left-part{
+            padding: 5%;
+        }
+        .right-part{
+            padding: 5%;
+            border-left: 1px solid rgb(203, 198, 198);
+        }
     }
 }
