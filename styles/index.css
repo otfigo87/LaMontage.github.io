@@ -246,4 +246,82 @@ main .section2 .left-part {
 main .section2 .right-part {
   padding: 5%;
   border-left: 1px solid rgb(203, 198, 198);
+}
+
+footer {
+  background: rgb(240, 238, 238);
+  width: 85%;
+  margin: 0 auto 70px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding: 40px;
+}
+footer form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+footer form label {
+  font-family: inter, sans-serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  color: grey;
+  margin-bottom: 20px;
+}
+footer form input[type=text], footer form textarea {
+  background: none;
+  border: 1px solid grey;
+  border-radius: 4px;
+  height: 50px;
+  width: 80%;
+  margin-bottom: 40px;
+  resize: none;
+}
+footer form textarea {
+  height: 100px;
+}
+footer form .btn {
+  color: grey;
+  border: 1px solid grey;
+}
+footer .infos-contact {
+  border-left: 1px solid rgb(221, 217, 217);
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+}
+footer .infos-contact div {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  align-items: center;
+}
+footer .infos-contact div h3 {
+  font-family: inter, sans-serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  padding-left: 40px;
+  text-align: left;
+  color: grey;
+}
+footer .infos-contact div p {
+  font-size: 0.8rem;
+  line-height: 26px;
+  color: grey;
+}
+footer .infos-contact .social ul {
+  display: flex;
+  margin-left: 50px;
+}
+footer .infos-contact .social li {
+  border: 1px solid grey;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  font-size: 0.9rem;
+  margin-right: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }/*# sourceMappingURL=index.css.map */
